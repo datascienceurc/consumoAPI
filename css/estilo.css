@@ -1,0 +1,15 @@
+#contenedor { margin-top: 10%;}
+    #buscador { margin-bottom: 5%;
+                background-color: #f0f0f0;
+                color: #333;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                padding: 10px;
+                margin: 10px;
+                width: 200px;
+                height: 30px;
+              }
+    #divBuscador{
+      float:right;
+      margin-bottom: 5%;
+    }
