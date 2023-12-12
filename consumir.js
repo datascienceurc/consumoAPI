@@ -28,20 +28,5 @@ function  cargarDatos() {
       });
 }
 
-/*
-
-$.each(personas, function(i, persona) { // Recorrer el arreglo de objetos
-  
-  fila.append("<td>" + persona.nombre + "</td>"); // Agregar la celda <td> para el nombre
-  fila.append("<td>" + persona.edad + "</td>"); // Agregar la celda <td> para la edad
-  fila.append("<td>" + persona.hobbies.join(", ") + "</td>"); // Agregar la celda <td> para los hobbies
-  
-});
-
-
-
-*/
-
-
 
 
