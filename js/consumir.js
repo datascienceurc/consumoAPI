@@ -10,9 +10,9 @@ function  cargarDatos() {
       var tabla = $("<table id = \"tabla\"  class=\"table  \"></table>"); // Crear el elemento <table>
       var encabezado = $("<thead></thead>");
       var fila_encabezado = $("<tr></tr>"); // Crear el elemento <tr> para el encabezado
-      fila_encabezado.append("<th scope =\"col\">Nombre</th>"); // Agregar la celda <th> para el nombre
-      fila_encabezado.append("<th scope =\"col\">Genero</th>"); // Agregar la celda <th> para la edad
-      fila_encabezado.append("<th scope =\"col\">Foto</th>"); // Agregar la celda <th> para la edad
+      fila_encabezado.append("<th scope =\"col\"  data-columna=\"nombre\">Nombre</th>"); // Agregar la celda <th> para el nombre
+      fila_encabezado.append("<th scope =\"col\"  >Genero</th>"); // Agregar la celda <th> para la edad
+      fila_encabezado.append("<th scope =\"col\"  >Foto</th>"); // Agregar la celda <th> para la edad
       encabezado.append(fila_encabezado);
       tabla.append(encabezado); // Agregar el encabezado a la tabla
       // Llamamos a la API
