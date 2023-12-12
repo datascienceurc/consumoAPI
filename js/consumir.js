@@ -1,7 +1,9 @@
 
 $(document).ready(function() {
+  
   cargarDatos();
-  var texto = $("#buscador").val();
+ 
+ 
 });
 
 function  cargarDatos() {       
